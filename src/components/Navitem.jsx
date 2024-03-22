@@ -4,11 +4,7 @@ import './Navitem.css';
 
 const Navitem = ({ children, nav_icon, is_logo}) => {
     var item_name = is_logo ? 'logo' : 'nav-item';
-    
-    // var item_name = 'nav-item';
-    // if (is_logo){
-        // item_name = 'logo';
-    // }
+
 	return (
         <>
             <li className={item_name}>
